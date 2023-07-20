@@ -1,13 +1,21 @@
 # Discriminator-for-distinguishing-between-poisonous-and-medicinal-herbs
-## 동의보감 독초 판별기 ( 2021. 11. 25(목) ~ 11. 29.(월) )
-### **3rd prize 🏆**
+## Discriminator for Distinguishing between Poisonous Herbs and Medicinal Herbs
+(동의보감 독초 판별기)
+
+### 3rd prize 🏆
+- **Organiser**: The Ministry of Science and ICT
+- **Period**: 25th - 29th Nov, 2021
+
 ## Abstract
-&nbsp;데이터를 독초, 약초 데이터를 활용하여 독초 판별기를 만들었다. 데이터는 대략 600GB이며, preprocessing에서 Crop, Flip Rotation등을 실행하여 overfitting을 방지했다. 또한 EfficenNet을 기반으로 학습시켰으며, SE block layer을 추가함으로써 데이터를 Noramlisation하여 성능향상을 도모했다.
+We created a poisonous herb and medicinal herb discriminator using poisonous and medicinal herb data. This model was trained on approximately **600GB** of herb data, and overfitting was prevented by performing **cropping**, **flipping**, and **rotation** in the preprocessing process. In addition, **EfficientNet** model was used as a backbone and the performance was improved by normalising the data by adding an **SE block layer**.
 
 ## Feature
-1. EfficentNet을 Backbone으로 구성.
-2. SE Block으로 성능향상.
+1. Configure **EfficientNet** as a backbone.
+2. Improved performance with **SE blocks**.
 
 ## Summary
-1. Ensemble learning method를 적용시켜 optimal model을 추출하여 성능을 개선시킬 수 있다. 
-2. Learning rate를 더 줄여 convergence시켜 성능을 높일 수 있다.
+1. The performance can be more improved by extracting the optimal model by applying the Ensemble learning method. 
+2. Since the model has not yet converged, you can train it further by reducing the learning rate.
+
+## License
+[Apache License 2.0](LICENSE)
