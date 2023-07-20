@@ -1,5 +1,4 @@
-# Discriminator-for-distinguishing-between-poisonous-and-medicinal-herbs
-## Discriminator for Distinguishing between Poisonous Herbs and Medicinal Herbs
+# Discriminator for Distinguishing between Poisonous Herbs and Medicinal Herbs
 (동의보감 독초 판별기)
 
 ### 3rd prize 🏆
